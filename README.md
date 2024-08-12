@@ -66,10 +66,10 @@ using namespace std;
 int main()
 {
     int n, i, j;
-    cout << "Enter number of elements";
+    cout << "Enter number of elements: ";
     cin >> n;
     int a[n];
-    cout << " Enter array elements";
+    cout << " Enter array elements: ";
     for ( int i =0; i <n ; i++ )
     { cin >> a[i];
      
@@ -89,10 +89,10 @@ using namespace std;
 int main()
 {
     int n, i, j;
-    cout << "Enter number of elements";
+    cout << "Enter number of elements: ";
     cin >> n;
     int a[n];
-    cout << " Enter array elements";
+    cout << " Enter array elements: ";
     for ( int i =0; i <n ; i++ )
     { cin >> a[i];
      
