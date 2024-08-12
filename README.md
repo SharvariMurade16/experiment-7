@@ -59,5 +59,159 @@ An element can be accessed by indexing the array name. This is done by placing t
 - *Element Size* : Each element's address increases based on its size; if an int is 4 bytes, addresses increment by 4 for each element
 
 ## Program codes -
-### 1. For Array -
+### 1. *For Array* -
 ```
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n, i, j;
+    cout << "Enter number of elements";
+    cin >> n;
+    int a[n];
+    cout << " Enter array elements";
+    for ( int i =0; i <n ; i++ )
+    { cin >> a[i];
+     
+    }
+       for (int i: a)
+     {
+        cout << " "<< i ;
+     } 
+    return 0;
+}
+```
+
+### 2. *Reverse Array* -
+```
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n, i, j;
+    cout << "Enter number of elements";
+    cin >> n;
+    int a[n];
+    cout << " Enter array elements";
+    for ( int i =0; i <n ; i++ )
+    { cin >> a[i];
+     
+    }
+       for (j = n-1 ; j>=0; j--)
+     {
+        cout << " "<< a[j];
+     } 
+    return 0;
+}
+```
+
+### 3. *Sum and Average of Array* -
+```
+#include<iostream>
+using namespace std;
+int main()
+{
+     int n, i, j;
+     float avg, s = 0;
+cout << "Enter the number of elements: ";
+cin >> n;
+int a[n];
+cout << "Enter array elements: ";
+for( i = 0; i<n ; i++)
+{
+    cin >> a[i];
+}
+
+for (j= 0 ; j<n; j++)
+{
+    s = a[j]+s;
+}
+avg = s/n;
+cout << "The sum of elements of the givne array is: "<<s<<endl;
+cout << "The average of the given array is: "<< avg<<endl;
+
+return 0;
+}
+```
+
+### 4. *Max and Min element of Array* -
+```
+#include<iostream>
+using namespace std;
+int main()
+{
+     int n, i, j, max, min;
+cout << "Enter the number of elements: ";
+cin >> n;
+int a[n];
+cout << "Enter array elements: ";
+for( i = 0; i<n ; i++)
+{
+    cin >> a[i];
+}
+max = a[0];
+min = a[0];
+for (j= 1 ; j<n; j++)
+{
+ if (max<a[j])
+
+ {
+    max = a [j];
+ }
+ if (min > a[j])
+ {
+    min = a[j];
+ }
+}
+cout <<"The maximum element in the given array is: "<<max<<endl;
+cout << " The minimun element in the array is: "<<min<<endl;
+return 0;
+
+}
+```
+
+### 5. *Search elements in Array* -
+```
+#include<iostream>
+using namespace std;
+int main()
+{
+     int n, i, j, s, c = 0, flag = 0;
+cout << "Enter the number of elements: ";
+cin >> n;
+int a[n];
+cout << "Enter array elements: ";
+for( i = 0; i<n ; i++)
+{
+    cin >> a[i];
+}
+cout << "Enter an element to be searched in an array: ";
+    cin >> s;
+for (j= 0 ; j<n; j++)
+{
+    if ( a[j]==s)
+    {
+cout<< "The element"<<" "<< s<< " " << "is present at location: "<<j<<endl;
+c++;
+flag =1;
+    }
+}
+
+if( flag ==0)
+{
+    cout<< "The element"<< " "<< s << " "<< "is not present in the given array";
+}
+else
+{
+    cout << "The element" << " "<< s << " "<< "occurs"<< " "<< c << " "<< "times.";
+}
+return 0;
+}
+```
+
+## Output -
+### 1. *For Array* -
+### 2. *Reverse Array* -
+### 3. *Sum and Average of Array* -
+### 4. *Max and Min element of Array* -
+### 5. *Search elements in Array* -
