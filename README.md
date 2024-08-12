@@ -211,7 +211,16 @@ return 0;
 
 ## Output -
 ### 1. *For Array* -
+![Screenshot 2024-08-12 232102](https://github.com/user-attachments/assets/5635423b-fda2-4890-b3a8-2c46e01714db)
 ### 2. *Reverse Array* -
+![Screenshot 2024-08-12 232543](https://github.com/user-attachments/assets/774d0f68-1343-482a-a3b9-dfb33bc40602)
 ### 3. *Sum and Average of Array* -
+![Screenshot 2024-08-12 232617](https://github.com/user-attachments/assets/defc724b-f802-4cc6-a68d-32591357990a)
 ### 4. *Max and Min element of Array* -
+![Screenshot 2024-08-12 232647](https://github.com/user-attachments/assets/37c5664a-ee11-4fb8-bd94-c1fb54403733)
 ### 5. *Search elements in Array* -
+![Screenshot 2024-08-12 232752](https://github.com/user-attachments/assets/ea034fca-bfe2-4e1f-973f-d5bfc1247415)
+
+## Conclusion -
+Arrays are a fundamental data structure in programming, used to store a collection of elements of the same type in contiguous memory locations.
+Arrays provide efficient storage and access for a fixed number of elements but are limited in flexibility compared to dynamic data structures.
