@@ -61,24 +61,22 @@ An element can be accessed by indexing the array name. This is done by placing t
 ## Program codes -
 ### 1. *For Array* -
 ```
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main()
-{
-    int n, i, j;
-    cout << "Enter number of elements: ";
-    cin >> n;
+int main() {
+    int n;
+    cout<<"Enternumber of elements you want in array: ";
+    cin>>n;
     int a[n];
-    cout << " Enter array elements: ";
-    for ( int i =0; i <n ; i++ )
-    { cin >> a[i];
-     
+    cout<<"Enter elements of array: ";
+    for(int i=0;i<n;i++){
+        cin>>a[i];
     }
-       for (int i: a)
-     {
-        cout << " "<< i ;
-     } 
-    return 0;
+    cout<<"The elements of array are: ";
+    for(int i=0;i<n;i++){
+        cout<<a[i]<<" ";
+    }    
+return 0;
 }
 ```
 
