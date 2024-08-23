@@ -206,7 +206,7 @@ else
 return 0;
 }
 ```
-### 6. Plaindrome of string-
+### 6. *Plaindrome of string*-
 ```
 //sharvari murade
 //23070123088
@@ -238,7 +238,7 @@ int main() {
 return 0;
 }
 ```
-### 7. String concatenation-
+### 7. *String concatenation*-
 ```
 //sharvari murade
 //23070123088
