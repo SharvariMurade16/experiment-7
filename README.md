@@ -206,7 +206,56 @@ else
 return 0;
 }
 ```
+### 6. Plaindrome of string-
+```
+//sharvari murade
+//23070123088
+//entc-b1
 
+#include <iostream>
+using namespace std;
+int main() {
+    string a;
+    int n,p=0;
+    cout<<"Enter a word: ";
+    cin>>a;
+    n=a.length();
+    for(int i=n-1;i>=0;i--){
+        if(a[i]==a[p]){
+            p++;
+        }
+        else{
+            break;
+        }
+    }
+    if(p==0){
+        
+        cout<<a<<" is not a pallindrome.";
+    }
+    else{
+        cout<<"Plaindrome string";
+    }
+return 0;
+}
+```
+### 7. String concatenation-
+```
+//sharvari murade
+//23070123088
+//entc-b1
+
+#include <iostream>
+using namespace std;
+int main() {
+    string n, s;
+    cout<<"Enter your first name: ";
+    cin>>n;
+    cout<<"Enter your last name: ";
+    cin>>s;
+    cout<<"Your full name is: "<<n + s;
+return 0;
+}
+```
 ## Output -
 ### 1. *For Array* -
 ![Screenshot 2024-08-12 232102](https://github.com/user-attachments/assets/5635423b-fda2-4890-b3a8-2c46e01714db)
@@ -218,6 +267,10 @@ return 0;
 ![Screenshot 2024-08-12 232647](https://github.com/user-attachments/assets/37c5664a-ee11-4fb8-bd94-c1fb54403733)
 ### 5. *Search elements in Array* -
 ![Screenshot 2024-08-12 232752](https://github.com/user-attachments/assets/ea034fca-bfe2-4e1f-973f-d5bfc1247415)
+### 6.*Palindrome* -
+![2F852F06-F4F9-4990-976F-8A7ACA78D6C5_4_5005_c](https://github.com/user-attachments/assets/06530dbd-c05d-4253-8e58-313260cb4dba)
+### 7. *String concatenation*-
+![79C7A323-4664-4D38-AF8A-098F7E2B2EE5_4_5005_c](https://github.com/user-attachments/assets/5bf06324-766b-4c5d-bdfa-4a5680818a05)
 
 ## Conclusion -
 Arrays are a fundamental data structure in programming, used to store a collection of elements of the same type in contiguous memory locations.
