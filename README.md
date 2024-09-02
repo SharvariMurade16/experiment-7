@@ -60,7 +60,9 @@ An element can be accessed by indexing the array name. This is done by placing t
 
 ## Program codes -
 ### 1. *For Array* -
-```
+```javascript
+//sharvari murade
+//23070123088
 #include <iostream>
 using namespace std;
 int main() {
@@ -81,7 +83,9 @@ return 0;
 ```
 
 ### 2. *Reverse Array* -
-```
+```javascript
+//sharvari murade
+//23070123088
 #include<iostream>
 using namespace std;
 int main()
@@ -104,7 +108,9 @@ int main()
 ```
 
 ### 3. *Sum and Average of Array* -
-```
+```javascript
+//sharvari murade
+//23070123088
 #include<iostream>
 using namespace std;
 int main()
@@ -133,7 +139,9 @@ return 0;
 ```
 
 ### 4. *Max and Min element of Array* -
-```
+```javascript
+//sharvari murade
+//23070123088
 #include<iostream>
 using namespace std;
 int main()
@@ -169,7 +177,9 @@ return 0;
 ```
 
 ### 5. *Search elements in Array* -
-```
+```javascript
+//sharvari murade
+//23070123088
 #include<iostream>
 using namespace std;
 int main()
@@ -207,7 +217,7 @@ return 0;
 }
 ```
 ### 6. *Plaindrome of string*-
-```
+```javascript
 //sharvari murade
 //23070123088
 //entc-b1
@@ -239,7 +249,7 @@ return 0;
 }
 ```
 ### 7. *String concatenation*-
-```
+```javascript
 //sharvari murade
 //23070123088
 //entc-b1
