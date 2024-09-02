@@ -3,7 +3,7 @@
 ## Aim -
 To study and implement c++ arrays.
 
-## Apparatus -
+## Software used -
 Vs code
 
 ##  Problem Statements -
