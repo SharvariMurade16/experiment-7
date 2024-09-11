@@ -266,6 +266,43 @@ int main() {
 return 0;
 }
 ```
+### 8.reverse string-
+```javascript
+//sharvari murade
+//23070123088
+#include <iostream>
+using namespace std;
+int main() {
+    string a;
+    int n;
+    cout<<"Enter a word: ";
+    cin>>a;
+    n=a.length();
+    for(int i=n-1;i>=0;i--){
+        cout<<a[i];
+    }
+return 0;
+}
+```
+
+### 9.string occurence-
+```javascript
+//sharvari murade
+//23070123088
+#include <iostream>
+using namespace std;
+int main() {
+    string a;
+    int n;
+    cout<<"Enter a word: ";
+    cin>>a;
+    n=a.length();
+    for(int i=n-1;i>=0;i--){
+        cout<<a[i];
+    }
+return 0;
+}
+```
 ## Output -
 ### 1. *For Array* -
 ![Screenshot 2024-08-12 232102](https://github.com/user-attachments/assets/5635423b-fda2-4890-b3a8-2c46e01714db)
@@ -281,6 +318,13 @@ return 0;
 ![2F852F06-F4F9-4990-976F-8A7ACA78D6C5_4_5005_c](https://github.com/user-attachments/assets/06530dbd-c05d-4253-8e58-313260cb4dba)
 ### 7. *String concatenation*-
 ![79C7A323-4664-4D38-AF8A-098F7E2B2EE5_4_5005_c](https://github.com/user-attachments/assets/5bf06324-766b-4c5d-bdfa-4a5680818a05)
+### string reverse-
+<img width="334" alt="image" src="https://github.com/user-attachments/assets/071a3491-9f26-4746-9cba-8f2a6147390d">
+
+### string occurence-
+<img width="341" alt="image" src="https://github.com/user-attachments/assets/fba6ca48-41aa-47ba-8533-3014cfe1aca4">
+
+
 
 ## Conclusion -
 Arrays are a fundamental data structure in programming, used to store a collection of elements of the same type in contiguous memory locations.
